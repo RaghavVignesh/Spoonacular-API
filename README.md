@@ -23,8 +23,8 @@ When entering "Yes" or "No" when asked to like the recipe. Do not leave spaces. 
 
 For Security Reasons, The secret key for accessing the API is read
 from a config file. You will need to enter your own secret key in the config file
-for accessing the Spoonocular API for which you need
-a Spoonocular Account. 
+for accessing the Spoonacular API for which you need
+a Spoonacular Account. 
 
 To avoid, making multiple requests to the API, The API
 response has been configured to return 20 recipes for a single
@@ -35,6 +35,8 @@ as the user needs to be shown only one recipe at a time.
 
 There are Unit Tests which can be executed by typing
 python test_cases.py.
+
+Also make sure you read the technical documentation and user documentation to understand more about the project.
 
 
 
