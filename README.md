@@ -36,6 +36,8 @@ as the user needs to be shown only one recipe at a time.
 There are Unit Tests which can be executed by typing
 python test_cases.py.
 
+Also make sure you read the technical documentation and user documentation to understand more about the project.
+
 
 
 
