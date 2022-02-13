@@ -1,1 +1,1 @@
-api_secret_key = "5cc5e369ef7648aab7bd9a3a5f92a103"
+api_secret_key = ""
