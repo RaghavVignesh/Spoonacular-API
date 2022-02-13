@@ -1,4 +1,4 @@
-              SPOONACULAR API - DETAILED TECHNICAL DOCUMENTATION FOR DEVELOPERS.
+                     SPOONACULAR API - DETAILED TECHNICAL DOCUMENTATION FOR DEVELOPERS.
 
 This is a technical documentation about the Spoonacular Project for IRobot Take Home test. It contains a detailed description of the project.
 
@@ -49,9 +49,9 @@ which will be available for user selection later on.All the missing ingredients 
 All the aisles of the missing ingredients are stored in a dictionary and, similarly all the prices for all the missing ingredients are stored in a dictionary.All of these operations are performed in the process_recipes method.
 
 After this, the recipes are made available for the user to select them. Initially the first recipe, in the recipes list is displayed to the user. If the user chooses to “like” the recipe, all the missing items of the recipe are added to a list.
-Similarly, all the aisles of the missing items of the recipes which the user likes are stored in a dictionary. All the prices of the missing items are stored in a dictionary. 
+Similarly, all the aisles of the missing items of the recipes which the user likes are stored in a dictionary.All the prices of the missing items are stored in a dictionary. 
 
 If the item is absent, the price is added for the first time, if the missing item is already present, the price is added to the existing price. Throughout the process, the User is given the option to continue shopping or not to continue shopping.
-If the user does not like a recipe,He is presented with a new recipe. If he likes the recipe, he can choose to end shopping. If all the recipes are viewed by the user, we exit out with this message “We have run out of recipes”.
+If the user does not like a recipe,He is presented with a new recipe.If he likes the recipe, he can choose to end shopping. If all the recipes are viewed by the user, we exit out with this message “We have run out of recipes”.
 
-Finally all the missing_ingredients, their corresponding aisles and the prices are displayed to the user in the process_output_to_user method in OutputRecipes
+Finally all the missing_ingredients, their corresponding aisles and the prices are displayed to the user in the process_output_to_user method in OutputRecipes.
