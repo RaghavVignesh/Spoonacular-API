@@ -5,6 +5,12 @@ class OutputRecipes:
         self.missing_items_prices = user_missing_ingredients_prices
 
 
+'''This method simply displays the user, his liked recipes, the missing ingredients
+ of all the recipes he liked, the aisles where he can find them, and their respective
+ prices and also the total sum he has to spend for all the missing ingredients.
+'''
+
+
 def process_output_to_user(missing_items, user_missing_items_aisle, user_missing_items_price):
     print("showing you the missing items")
     if all(x is None for x in missing_items):

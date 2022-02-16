@@ -7,6 +7,13 @@ class UserRecipes:
         self.missing_ingredient_prices = missing_ingredients_prices
 
 
+'''This method is mainly driven by the user inputs. Based on the user 
+   input, the program retrieves the recipes liked by the user and stores
+   the missing ingredients, the aisles of the missing ingredients and their prices
+   in two dictionaries and a list.
+'''
+
+
 def process_user_input(recipes, missing_ingredients, missing_ingredient_aisles, missing_ingredient_prices):
     count = 0
     size = len(recipes)

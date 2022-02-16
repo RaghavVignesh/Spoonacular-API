@@ -5,6 +5,13 @@ from Recipes import Recipes
 from Recipes import UserRecipes
 from Recipes import OutputRecipes
 
+''' This is the main method that drives the program.
+    We parse the command line arguments and extract ingredients
+    from the command line arguments. We then get all the missing ingredients
+    for the recipes and store their aisles and their prices and display the
+     prices to the user.
+'''
+
 
 def main():
     print("Welcome to the SPOONACULAR API Project")

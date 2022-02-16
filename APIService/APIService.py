@@ -8,6 +8,14 @@ class APIService:
         self.ingredient_list = ingredemt_list
 
 
+'''
+This method is used to call the API Itself with a payload and a config
+secret key. The secret key is read from a config file for security reasons.
+The maximum number of recipes in the response has been configured to 20 and 
+can be modified here in the method
+'''
+
+
 def call_spoonacular_api(ingredient_list):
     end_point = "https://api.spoonacular.com/recipes/findByIngredients"
     api_secret_key = config.api_secret_key
@@ -24,6 +32,12 @@ def call_spoonacular_api(ingredient_list):
             "There are no recipes for the ingredients you requested. Please try with different ingredients.")
 
     return response_data
+
+
+''' 
+This method handles the various exceptions which can arise when
+    the request is not successful. 
+'''
 
 
 def call_api(end_point, payload):
@@ -44,6 +58,3 @@ def call_api(end_point, payload):
         print("There is an error in decoding the response json", error)
 
     return response
-
-
-

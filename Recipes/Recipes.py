@@ -3,6 +3,13 @@ class Recipe:
         self.response_data = response_data
 
 
+'''
+This method takes the response data and stores all the missing ingredients
+for all the recipes,stores the aisles of all the recipes, stores the prices
+of the missing ingredients of all the recipes in dictionaries.
+'''
+
+
 def process_recipes(response_data):
     recipes = []
     missing_ingredients = {}
@@ -23,4 +30,4 @@ def process_recipes(response_data):
             missing_items.append(missing_item)
         missing_ingredients[recipe] = missing_items
 
-    return recipes,missing_ingredients,missing_ingredients_aisles,missing_ingredients_prices
+    return recipes, missing_ingredients, missing_ingredients_aisles, missing_ingredients_prices
